@@ -1,0 +1,26 @@
+This imy first Git project 
+
+git config --global user.name "Name"
+git config --global user.email"name@email.com"
+git config --list
+git config user.name 
+git config user.email
+
+git help 
+git help 
+
+pwd 				>> Tells you the folder location you are currently on.
+
+cd~ 		>> Take you to the home folder
+cd .. 		>> Take you back one step 
+ls 		>> lists all the folders
+
+cd folder 	>> takes to the folder 
+cd c:\git 	>> takes you to the git folder c:\git
+
+--------Initialize the project and start working on git -----------------
+
+git init >> this will initialize the project
+
+ls -la 			>> list all the files including the hidden files and folders
+
