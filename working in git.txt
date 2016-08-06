@@ -33,3 +33,4 @@ git log --author="name" >> vaie all the commits that were made by a particular a
 
 
 Git status 
+
