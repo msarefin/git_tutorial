@@ -1,1 +1,7 @@
-This is m first text file. 
+This is m first text file.
+
+I will be working on git to track change
+
+I am going to continue working on git
+
+This is ging to take time 
