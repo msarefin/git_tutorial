@@ -24,3 +24,12 @@ git init >> this will initialize the project
 
 ls -la 			>> list all the files including the hidden files and folders
 
+git add .			>> add all the changes we made to our project 
+
+git commit -m "This is first commit"		>> takes a snapshot of the chanages we made 
+
+git log 			>> view allthe commits that took place
+git log --author="name" >> vaie all the commits that were made by a particular author
+
+
+Git status 
