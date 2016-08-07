@@ -41,3 +41,4 @@ git diff --staged >> shows the difference between working copy and the staged fi
 git add <file.ext> adds files to the 'Stagig Area' that will be commited. 
 git commit -m "comment of about the file/ changes to the file that is added to the Repository"
 
+git rm file.ext >> Removes a file form the Working area and the repository
