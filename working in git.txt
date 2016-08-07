@@ -34,8 +34,9 @@ git log --author="name" >> vaie all the commits that were made by a particular a
 
 Git status 
 
-git diff	>> This shows the modificatiions that we made
-				it also shows the diffrence betwen the last staging file and the current  changes maded to the file
+git diff	>> shows the difference between the working copy and the Repository 
+
+git diff --staged >> shows the difference between working copy and the staged file.
 
 git add <file.ext> adds files to the 'Stagig Area' that will be commited. 
 git commit -m "comment of about the file/ changes to the file that is added to the Repository"
