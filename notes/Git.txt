@@ -61,6 +61,11 @@ git mv first.txt home.txt
 
 ----------------------Directly to working area to repository
 
+git commit -am >> This will commit all changes made in the working area directly to reository without going through the staging area. The only down side is that it will commit all files that were worked on in the working area. Not recommended if you want only some files to be commited. 
+
+
+git checkout -- file.ext >> retrive the file from the repository
+
 
 
 
