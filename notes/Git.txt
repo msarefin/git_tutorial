@@ -59,4 +59,8 @@ The above can be done on the Git bash like so
 
 git mv first.txt home.txt 
 
+----------------------Directly to working area to repository
+
+
+
 
