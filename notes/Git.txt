@@ -67,5 +67,10 @@ git commit -am >> This will commit all changes made in the working area directly
 git checkout -- file.ext >> retrive the file from the repository
 
 
+unstaging >>
+
+git reset HEAD file.ext
+
+
 
 
