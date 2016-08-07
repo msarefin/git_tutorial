@@ -49,3 +49,14 @@ to finalize the changes you must always commit
 If you reame a file (first.txt to home.txt) in the Working area 
 git status will show that we deleted the file (first.txt) and created a new file (home.txt). 
 
+Then 
+
+git add home.txt 
+git rm first.txt 
+
+
+The above can be done on the Git bash like so 
+
+git mv first.txt home.txt 
+
+
