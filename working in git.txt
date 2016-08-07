@@ -42,3 +42,10 @@ git add <file.ext> adds files to the 'Stagig Area' that will be commited.
 git commit -m "comment of about the file/ changes to the file that is added to the Repository"
 
 git rm file.ext >> Removes a file form the Working area and the repository
+
+git status shows that the status of the file is "Deleted: file.ext"
+to finalize the changes you must always commit 
+
+If you reame a file (first.txt to home.txt) in the Working area 
+git status will show that we deleted the file (first.txt) and created a new file (home.txt). 
+
