@@ -69,7 +69,8 @@ git checkout -- file.ext >> retrive the file from the repository
 
 unstaging >>
 
-git reset HEAD file.ext
+git reset HEAD file.ext with remove the file from the staging area 	
+
 
 
 
