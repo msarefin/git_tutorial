@@ -2,6 +2,6 @@ This is just a test
 
 we will work on the second line
 
-taking things off the staging area
+
 
 This is to test the reset HEAD command 	
