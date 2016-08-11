@@ -33,6 +33,7 @@ git log --author="name" >> vaie all the commits that were made by a particular a
 
 
 Git status 
+Git status -s >> Short status 
 
 git diff	>> shows the difference between the working copy and the Repository 
 
