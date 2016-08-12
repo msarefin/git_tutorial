@@ -1,46 +1,71 @@
 This imy first Git project 
 
+
 git config --global user.name "Name"
+
 git config --global user.email"name@email.com"
+
 git config --list
+
 git config user.name 
+
 git config user.email
+
 
 git help 
 git help 
 
 pwd 				>> Tells you the folder location you are currently on.
 
-cd~ 		>> Take you to the home folder
+
+cd~ 		>> Take you to the home folder 
+
 cd .. 		>> Take you back one step 
-ls 		>> lists all the folders
+
+ls 		>> lists all the folders 
+
 
 cd folder 	>> takes to the folder 
+
 cd c:\git 	>> takes you to the git folder c:\git
+
 
 --------Initialize the project and start working on git -----------------
 
+
 git init >> this will initialize the project
 
-ls -la 			>> list all the files including the hidden files and folders
+
+ls -la 			>> list all the files including the hidden files and folders 
+
 
 git add .			>> add all the changes we made to our project 
 
+
 git commit -m "This is first commit"		>> takes a snapshot of the chanages we made 
 
+
 git log 			>> view allthe commits that took place
+
 git log --author="name" >> vaie all the commits that were made by a particular author
 
 
+
 Git status 
+
 Git status -s >> Short status 
+
 
 git diff	>> shows the difference between the working copy and the Repository 
 
+
 git diff --staged >> shows the difference between working copy and the staged file.
 
+
 git add <file.ext> adds files to the 'Stagig Area' that will be commited. 
+
 git commit -m "comment of about the file/ changes to the file that is added to the Repository"
+
 
 git rm file.ext >> Removes a file form the Working area and the repository
 
@@ -48,6 +73,7 @@ git status shows that the status of the file is "Deleted: file.ext"
 to finalize the changes you must always commit 
 
 If you reame a file (first.txt to home.txt) in the Working area 
+
 git status will show that we deleted the file (first.txt) and created a new file (home.txt). 
 
 Then 
@@ -60,15 +86,20 @@ The above can be done on the Git bash like so
 
 git mv first.txt home.txt 
 
-----------------------Directly to working area to repository
+
+----------------------
+Directly to working area to repository
+
 
 git commit -am >> This will commit all changes made in the working area directly to reository without going through the staging area. The only down side is that it will commit all files that were worked on in the working area. Not recommended if you want only some files to be commited. 
+
 
 
 git checkout -- file.ext >> retrive the file from the repository
 
 
 unstaging >>
+
 
 git reset HEAD file.ext with remove the file from the staging area 	
 
